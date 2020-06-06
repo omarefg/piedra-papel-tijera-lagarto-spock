@@ -1,0 +1,25 @@
+{
+  "name": "piedra-papel-tijera-lagarto-spock",
+  "version": "0.1.0",
+  "description": "Little browser game.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarefg/piedra-papel-tijera-lagarto-spock.git"
+  },
+  "keywords": ["javascript", "html", "css"],
+  "author": "Omar Flores Grimontt <dev@omarefg.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omarefg/piedra-papel-tijera-lagarto-spock/issues"
+  },
+  "homepage": "https://github.com/omarefg/piedra-papel-tijera-lagarto-spock#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}

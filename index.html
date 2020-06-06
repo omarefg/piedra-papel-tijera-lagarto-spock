@@ -1,17 +1,66 @@
-<!Doctype html>
-<hmtl>
-<head>
-<title>Piedra, papel, tijera, lagarto, 
-
-Spock</title>
-<button onclick="opcion(0);">Piedra</button>
-<button onclick="opcion(1);">Papel</button>
-<button onclick="opcion(2);">Tijera</button>
-<button onclick="opcion(3);">Lagarto</button>
-<button onclick="opcion(4);">Spock</button> 
-</head>
-<body>
-<script src="cod.js"></script>
-</body>
-</hmtl>
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piedra, papel, tijera, lagarto, Spock</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="gameboard">
+        <button id="rock" onclick="play(0);">
+          <img src="./assets/rock.svg" alt="rock" />
+        </button>
+        <div class="group mid">
+          <button id="paper" onclick="play(1);">
+            <img src="./assets/paper.svg" alt="rock" />
+          </button>
+          <button id="scissors" onclick="play(2);">
+            <img src="./assets/scissor.svg" alt="rock" />
+          </button>
+        </div>
+        <div class="group bottom">
+          <button id="lizard" onclick="play(3);">
+            <img src="./assets/lizard.svg" alt="rock" />
+          </button>
+          <button id="spock" onclick="play(4);">
+            <img src="./assets/spock.svg" alt="rock" />
+          </button>
+        </div>
+      </div>
+      <h1></h1>
+    </main>
+    <footer>
+      <a class="brand" href="https://omarefg.github.io" target="_blank">
+        <img src="./assets/logo.svg" alt="omarefg" />
+      </a>
+      <p>
+        Icons made by
+        <a href="http://www.freepik.com/" title="Freepik" target="_blank"
+          >Freepik</a
+        >,
+        <a
+          href="https://www.flaticon.com/free-icon/notebook_308194?term=sheet&page=4&position=76"
+          title="Vectors Market"
+          target="_blank"
+          >Vectors Market</a
+        >,
+        <a href="https://smashicons.com/" title="Smashicons" target="_blank"
+          >Smashicons</a
+        >
+        and
+        <a
+          href="https://www.flaticon.com/free-icon/iguana_2683050"
+          title="Good Ware"
+          >Good Ware</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon" target="_blank"
+          >Flaticon</a
+        >
+      </p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
